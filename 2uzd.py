@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #trijsturis
 class trijsturis():
     def __init__(self,mala1,mala2,mala3):
@@ -59,10 +53,3 @@ ts.tslaukums()
 
 kv.kvperimetrs()
 kv.kvlaukums()
-
-
-# In[ ]:
-
-
-
-
