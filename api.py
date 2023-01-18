@@ -6,16 +6,16 @@ resp = resp.json()
 
 resp = resp["items"]
 
-a = resp[0].items()
-print(a)
-
 j = 0
 for i in resp:
   dir = resp[j]
 
   j = j + 1
   for key, val in dir.items():
-    #if key == ""
+    if key == "owner":
+      for k, v in val.items():
+        if k == "login":
+          print(f"login: {v}")
 
     if key == "name":
       print(f"name: {val}")
